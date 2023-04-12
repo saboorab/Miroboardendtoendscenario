@@ -1,0 +1,10 @@
+class locators:
+    email_xpath = '(//input[@id="email"])'
+    pass_xpath = '(//input[@id="password"])'
+    login_btn_xpath = '(//button[@type="submit"])'
+    switchToDev_btn = '(//div[@aria-label="Switch to Dev team team"])'
+    plus_btn_xpath = '(//button[@class="c-wERxy c-wERxy-jylGor-unstyled-false c-bjfTlj creationBarButton-TmJjg CreationBarButton--CATALOG icon-17btk icon_toolbar-2P1wT icon_default-3EH8F"])'
+    stickerEmo_btn_xpath = '(//span[@class="creationBarMenuItem__text-36zFb"][normalize-space()="Stickers and Emojis"])'
+    sticker_btn_xpath = '(//span[normalize-space()="Stickers"])'
+    select_sticker_xpath = '(//img[@src="https://mirostatic.com/app/static/f3e004fc5dffe64f0068200872b31621.svg"])'
+    open_board_xpath = '(//div[@aria-label="'
