@@ -22,3 +22,8 @@ The board_ui.py file located in the features/forms directory contains the end-to
 
 Finally, the features/tests directory contains the BDD file.
 
+Approach:
+
+I have taken screen shot of sticker shared by user 1 and screen shot of sticker visible to uer 2. 
+
+After that i did image comparsion with the help of imagehash.average_hash function will generate identical hash for same images and vice versa
