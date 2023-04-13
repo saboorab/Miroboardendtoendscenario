@@ -15,7 +15,7 @@ from features.configuration.board_share_conf import share_board
 
 boardSup = boardSupport()
 driver = webdriver.Chrome()
-driver.implicitly_wait(30)
+driver.implicitly_wait(2)
 locate = locators()
 
 class ui_auto:
