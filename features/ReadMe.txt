@@ -18,9 +18,9 @@ features/configurations directory, including board_creation_conf.py which contai
 
 The board_support_items.py file located in the features/support directory contains support configurations while the locators.py file has all the locators. 
 
-The board_ui.py file located in the features/forms directory contains the end-to-end test, and the features/testdate directory is where the code will create screenshots of images.
+The board_ui.py file located in the features/tests directory contains the end-to-end test, and the features/testdate directory is where the code will create screenshots of images.
 
-Finally, the features/tests directory contains the BDD file.
+Finally, the features/BDD directory contains the feature file.
 
 Approach:
 
