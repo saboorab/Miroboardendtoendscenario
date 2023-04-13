@@ -53,7 +53,7 @@ class ui_auto:
         driver.find_element(By.XPATH, locate.login_btn_xpath).click()
         time.sleep(2)
 
-        # driver.close()
+
 
     def board_creation(self):
         self.response = boadr_creation(boardSup.board_name)
